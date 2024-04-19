@@ -1,0 +1,40 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* To ensure vertical centering of nav items */
+    background: #333;
+    padding: 10px 0;
+    width: 100%; /* Ensure the navbar spans the full width of the viewport */
+}
+
+.nav-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 20px;
+}
+
+.nav-item:nth-child(0) {
+    left: 0;
+}
+
+.nav-item:nth-child(1),
+.nav-item:nth-child(2) {
+    margin-left: auto;
+}
+
+.nav-item:not(:last-child) {
+    margin-right: 10px;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.bookmark {
+    width: 1.3em;
+    height: 1.6em;
+}
